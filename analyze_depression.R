@@ -3,6 +3,7 @@ library(readr)
 library(purrr)
 library(tidyr)
 library(here)
+library(fslr)
 
 get_id_from_filename = function(x) {
   x = basename(x)
